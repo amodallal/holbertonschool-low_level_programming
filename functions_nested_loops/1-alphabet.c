@@ -1,14 +1,12 @@
 #include "main.h"
 
 /**
- * main - Entry point
+ * main - check the code
  *
- * Return: Always 0 (Success)
+ * Return: Always 0.
  */
-int main(void)
+/*int main(void)
 {
-	/* Print*/
 	print_alphabet();
-	/*Return zero to indicate the program executed successfully*/
 	return (0);
-}
+}*/
