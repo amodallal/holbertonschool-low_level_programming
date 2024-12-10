@@ -6,7 +6,8 @@
  * Return: Always 0.
  */
 int main(void)
-{
-	print_alphabet();
-	return (0);
+{	
+	/*print*/
+	print_alphabet();/*print*/
+	return (0);/*return*/
 }
