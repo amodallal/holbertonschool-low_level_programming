@@ -11,7 +11,6 @@
 /* more headers goes there */
 
 /* betty style doc for function main goes there */
-/* betty style doc for function main goes there */
 int main(void)
 {
 	int n, last_digit;
@@ -26,11 +25,11 @@ int main(void)
 	}
 	else if (last_digit == 0)
 	{
-		printf("Last digit of %d is %d and is equal to 0\n", n, last_digit);
+		printf("Last digit of %d is %d and is 0\n", n, last_digit);
 	}
 	else if (last_digit < 6)
 	{
-		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, last_digit);
+		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, last_digit);i
 	}
 	return (0);
 }
