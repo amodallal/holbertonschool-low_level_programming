@@ -1,17 +1,21 @@
 #include <stdio.h>
 
 /**
- * print_alphabet - Prints the alphabet in lowercase
+ * print_numbers - prints the numbers
  */
-void print_alphabet(void)
+void print_numbers(void)
 {
-	char letter;
+	char i;
 
-	for (letter = 'a'; letter <= 'z'; letter++)
+	for (i = '0'; i <= '9'; i++)
 	{
-	putchar(letter);
+	putchar(i);
 	}
-	putchar('\n'); /* Print a newline after the alphabet */
+	for (i = 'a'; i <= 'f'; i++)
+	{
+	putchar(i);
+	}
+	putchar('\n'); /* Print a newline  */
 	}
 
 /**
@@ -21,6 +25,6 @@ void print_alphabet(void)
  */
 int main(void)
 {
-	print_alphabet();
+	print_numbers();
 	return (0);
 }
