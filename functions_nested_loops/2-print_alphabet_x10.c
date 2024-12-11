@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_alphabet - Entry point of the program.
+ * print_alphabet_x10 - Entry point of the program.
  *
  * Description: Calls the print_alphabet function to print the alphabet
  *
