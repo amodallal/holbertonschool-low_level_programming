@@ -1,9 +1,20 @@
+#include "main.h"
 #include <unistd.h>
+#include <stdio.h>
 /**
  * _putchar - writes a character to stdout
  * @c: The character to print
- * Return: On success, 1 is returned. On error, -1 is returned.
+ * Return: return 1 is uppercase and 0 if lowercase
  */
-int _isupper(int c){
-
-} 
+int _isupper(int n){
+	
+if (n >= 'A' && n <= 'Z')
+{
+	n = 1;
+}
+else 
+{
+	n = 0;
+}
+return (n);
+}

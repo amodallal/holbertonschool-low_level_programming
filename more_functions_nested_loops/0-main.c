@@ -16,4 +16,3 @@ int main(void)
     printf("%c: %d\n", c, _isupper(c));
     return (0);
 }
-julien@ubuntu:~/$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 0-main.c 0-isupper.c -o 0-isuper
