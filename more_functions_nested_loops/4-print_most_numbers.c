@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * void print_most_numbers - Entry point of the program.
+ * print_most_numbers - Entry point of the program.
  *
- * Description: print numbers 
+ * Description: print numbers
  *
  * Return: Always 0 (Success).
  */
@@ -17,6 +17,6 @@ int i = 0;
 	{
 	_putchar('0' + i);
 	}
-	}	
+	}
 	_putchar('\n');
 }
