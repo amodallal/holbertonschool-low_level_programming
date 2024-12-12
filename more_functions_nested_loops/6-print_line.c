@@ -3,7 +3,7 @@
 #include <stdio.h>
 /**
  * print_line - print line
- * @n: 
+ * @n:
  *
  * Return: return line
  */
