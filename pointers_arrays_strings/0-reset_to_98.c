@@ -4,7 +4,7 @@
 /**
  * reset_to_98 - reset
  *
- * @ :variable
+ * @n :variable
  * Return: return the printed
  */
 void reset_to_98(int *n)
