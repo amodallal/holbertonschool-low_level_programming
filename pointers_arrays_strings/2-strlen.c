@@ -1,19 +1,19 @@
 #include "main.h"
 #include <unistd.h>
 /**
- * _strlen : strlen
- *  - reset
+ * _strlen - print string
  *
- * @s :variable
+ * @s: variable
+ *
  * Return: return the printed
  */
 int _strlen(char *s)
 {
- int length = 0;
+int length = 0;
 
-     while (s[length] != '\0') {
-        length++;
-    }
-
-    return length;
+	while (s[length] != '\0')
+	{
+	length++;
+	}
+	return (length);
 }
