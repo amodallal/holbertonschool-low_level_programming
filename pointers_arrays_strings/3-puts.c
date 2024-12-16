@@ -2,9 +2,9 @@
 #include <unistd.h>
 #include <stdio.h>
 /**
- * _strlen - print string
+ * _puts - print string
  *
- * @s: variable
+ * @str: variable
  *
  * Return: return the printed
  */
