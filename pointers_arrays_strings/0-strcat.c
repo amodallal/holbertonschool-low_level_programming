@@ -2,24 +2,25 @@
 #include <unistd.h>
 #include <stdio.h>
 /**
- * _strcat - strcat
+ * _strcat - print
  *
  * @src: variable
  * @dest: variable
  * Return: return the printed
  */
 char *_strcat(char *dest, char *src)
-{	
-	while (*dest != '\0')
+{
+	 int i = 0, dest_len = 0;
+
+	while (dest[dest_len] != '\0')
 	{
-		dest++;
+	dest_len++;
 	}
-	while (*src != '\0')
+	while (src[i] != '\0')
 	{
-		*dest = *src;
-		dest++;
-		src++;
+	dest[dest_len + i] = src[i];
+	i++;
 	}
-	*dest= '\0';
-	return dest;
+	dest[dest_len + i] = '\0';
+	return (dest);
 }
