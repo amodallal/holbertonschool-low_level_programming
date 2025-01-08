@@ -13,7 +13,7 @@ int _sqrt_helper(int n, int guess)
 	return (guess);
 	if (guess * guess > n)
 	return (-1);
-	return _sqrt_helper(n, guess + 1);
+	return (_sqrt_helper(n, guess + 1));
 }
 /**
  * _sqrt_recursion - Returns the natural square root of a number
