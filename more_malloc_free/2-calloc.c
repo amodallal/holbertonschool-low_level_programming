@@ -1,7 +1,7 @@
 #include <stdlib.h>
 
 /**
- * _calloc - Allocates memory for an array of nmemb elements of size bytes each,
+ * _calloc - Allocates memory for an array of nmemb
  * and sets all bytes to zero.
  * @nmemb: The number of elements in the array.
  * @size: The size of each element.
@@ -21,4 +21,4 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 	for (i = 0; i < nmemb * size; i++)
 	((char *)ptr)[i] = 0;
 	return (ptr);
-}	
+}
