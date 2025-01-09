@@ -1,7 +1,7 @@
 #include <stdlib.h>
 
 /**
- * array_range - Creates an array of integers containing values from min to max.
+ * array_range - Creates an array of integers.
  * @min: The minimum value of the array.
  * @max: The maximum value of the array.
  * Return: A pointer to the newly created array, or NULL if malloc fails,
