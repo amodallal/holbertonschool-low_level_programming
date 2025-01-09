@@ -1,5 +1,4 @@
 #include <stdlib.h>
-
 /**
  *  * _strlen - Calculates the length of a string.
  *   * @str: The string to measure.
@@ -8,14 +7,12 @@
  *      */
 unsigned int _strlen(char *str)
 {
-	    unsigned int len = 0;
+	unsigned int len = 0;
 
-	        while (str[len] != '\0')
-			        len++;
-
-		    return (len);
+	while (str[len] != '\0')
+	len++;
+	return (len);
 }
-
 /**
  * string_nconcat - Concatenates two strings up to n bytes from the second string.
  * @s1: The first string.
