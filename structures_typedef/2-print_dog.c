@@ -10,7 +10,8 @@
  */
 void print_dog(struct dog *d)
 
-{	if (d)
+{	
+	if (d)
 	{
 	/* Print name */
 	if (d->name)
