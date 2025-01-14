@@ -3,6 +3,8 @@
 
 /**
  * _strlen - Calculates the length of a string.
+ * _strdup - strdup
+ * new_dog - new dog
  * @str: The string whose length is to be calculated.
  *
  * Return: The length of the string.
