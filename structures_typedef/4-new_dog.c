@@ -16,13 +16,13 @@ int _strlen(char *str)
 	/* Check if the string is NULL, return 0 length if it is */
 	if (str == NULL)
 	{
-	return 0;
+	return (0);
 	}
 	while (str[length] != '\0')
 	{
 	length++;
 	}
-	return length;
+	return (length);
 }
 
 /**
@@ -30,7 +30,7 @@ int _strlen(char *str)
  * @name: Name of the dog
  * @age: Age of the dog
  * @owner: Owner of the dog
- * 
+ *
  * Return: Pointer to the new dog struct or NULL if failure occurs
  */
 dog_t *new_dog(char *name, float age, char *owner)
@@ -38,7 +38,6 @@ dog_t *new_dog(char *name, float age, char *owner)
 	dog_t *new_dog;
 	int name_len, owner_len;
 	int i;  /* Declare loop variable outside of the loop */
-	
 	/* Allocate memory for the dog struct */
 	new_dog = malloc(sizeof(dog_t));
 	if (new_dog == NULL)
