@@ -1,7 +1,15 @@
-#include <stdio.h>
 #include <stdlib.h>
-#include <string.h>
 #include "dog.h"
+
+/**
+ * free_dog - Frees memory allocated for a dog structure.
+ * @d: Pointer to the dog structure to be freed.
+ *
+ * Description: This function frees the memory allocated for the name,
+ *              owner, and the dog structure itself. It checks if the
+ *              pointers are not NULL before freeing the memory.
+ *              If the dog structure is NULL, nothing is done.
+ */
 
 int _strlen(char *str)
 {
