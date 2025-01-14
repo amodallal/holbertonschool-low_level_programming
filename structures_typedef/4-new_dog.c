@@ -17,30 +17,30 @@ int _strlen(char *str)
 
 	if (str == NULL)
 	{
-	return 0;
+	return (0);
 	}
 	while (str[length] != '\0')
 	{
 	length++;
 	}
-	return length;
+	return (length);
 }
 
 char *_strdup(char *str)
 {
 	char *new_str;
 	int length, i;
-	
+
 	if (str == NULL)
 	{
-	return NULL;
+	return (NULL);
 	}
 
 	length = _strlen(str) + 1;
 	new_str = malloc(length);
 	if (new_str == NULL)
 	{
-	return NULL;
+	return (NULL);
 	}
 
 	for (i = 0; i < length; i++)
@@ -48,7 +48,7 @@ char *_strdup(char *str)
 	new_str[i] = str[i];
 	}
 
-	return new_str;
+	return (new_str);
 }
 
 dog_t *new_dog(char *name, float age, char *owner)
@@ -72,7 +72,6 @@ dog_t *new_dog(char *name, float age, char *owner)
 	if (new_dog->owner == NULL)
 	{
 	free(new_dog->name);
-	
 	free(new_dog);
 	return (NULL);
 	}
