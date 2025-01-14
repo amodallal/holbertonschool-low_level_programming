@@ -2,13 +2,14 @@
 #include "dog.h"
 
 /**
- * free_dog - Frees memory allocated for a dog structure.
- * @d: Pointer to the dog structure to be freed.
+ * _strlen - Calculates the length of a string.
+ * @str: The string whose length is to be calculated.
  *
- * Description: This function frees the memory allocated for the name,
- *              owner, and the dog structure itself. It checks if the
- *              pointers are not NULL before freeing the memory.
- *              If the dog structure is NULL, nothing is done.
+ * Return: The length of the string.
+ *
+ * Description: This function takes a string as input and returns its
+ *              length by iterating through each character until the
+ *              null terminator `\0` is reached.
  */
 
 int _strlen(char *str)
